@@ -97,7 +97,7 @@ bash scripts/schedule.sh benchmarks-ingest-every-minute ENABLED
 
 ## Screenshots
 
-### Part 1: ingest, 5 messages per queue
+### Ingest, 5 messages per queue
 ![Queue counts](docs/01-queue-counts-terminal.png)
 ![SQS console](docs/02-sqs-console.png)
 ![S3 raw jobs](docs/03-s3-raw-jobs.png)
