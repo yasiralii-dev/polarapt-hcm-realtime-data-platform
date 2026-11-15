@@ -95,7 +95,15 @@ bash scripts/schedule.sh benchmarks-ingest-every-minute ENABLED
 - Jobs → Snowflake `JOB_POSTINGS`: 500 rows / 500 distinct `JOB_ID`.
 - FX → SQL Server `fx_rates`: 48 rows inserted (8 messages × 6 currencies) according to the processor logs. TODO: screenshot or log evidence.
 
-Screenshots are in `docs/`: TODO list your files.
+## Screenshots
+
+### Part 1: ingest, 5 messages per queue
+![Queue counts](docs/01-queue-counts-terminal.png)
+![SQS console](docs/02-sqs-console.png)
+![S3 raw jobs](docs/03-s3-raw-jobs.png)
+![S3 raw fx](docs/04-s3-raw-fx.png)
+![S3 raw benchmarks](docs/05-s3-raw-benchmarks.png)
+![Contract metadata](docs/06-raw-file-metadata.png)
 
 ## Security notes
 
